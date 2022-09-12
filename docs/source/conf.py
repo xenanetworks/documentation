@@ -116,9 +116,9 @@ htmlhelp_basename = 'xena_docs_doc'
 html_title = title
 
 # The path to the HTML logo image in the static path, or URL to the logo, or ''.
-html_logo = './_static/xena-logo.svg'
+html_logo = './_static/xoa_logo.png'
 
-html_favicon = './_static/xena-fav.ico'
+html_favicon = './_static/xoa_favicon_16.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -130,7 +130,7 @@ html_show_copyright = True
 html_show_sphinx = False
 
 html_theme_options = {
-    "repository_url": "https://github.com/xenanetworks/open-automation-python-api",
+    "repository_url": "https://github.com/xenanetworks/documentation",
     "use_repository_button": True,
     "home_page_in_toc": True,
     "show_toc_level": 2,
@@ -155,7 +155,7 @@ intersphinx_disabled_domains = ['std']
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'xena_docs_doc', title, author, 'xena_docs_doc', 'Xena OpenAutomation high-level and low-level Python APIs and code examples for Xena TGA testers.', 'Miscellaneous'),
+    (master_doc, 'xena_docs_doc', title, author, 'xena_docs_doc', 'Xena Networks Documentation.', 'Miscellaneous'),
 ]
 
 # Add any paths that contain templates here, relative to this directory.
